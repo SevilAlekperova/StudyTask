@@ -1,4 +1,4 @@
-package HomeWork8;
+package HomeWork7dot2;
 
 public class Main {
     public static void main(String[] args) {

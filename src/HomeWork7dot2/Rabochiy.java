@@ -1,4 +1,4 @@
-package HomeWork8;
+package HomeWork7dot2;
 
 public class Rabochiy extends Person implements PrintPosition {
     public Rabochiy(String position) {

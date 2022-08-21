@@ -1,4 +1,4 @@
-package HomeWork8;
+package HomeWork7dot2;
 
 public class Director extends Person implements PrintPosition {
     public Director(String position) {

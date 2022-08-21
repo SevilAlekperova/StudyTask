@@ -1,4 +1,4 @@
-package HomeWork8;
+package HomeWork7dot2;
 
 public abstract class Person {
     private String position;

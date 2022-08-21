@@ -1,4 +1,4 @@
-package HomeWork8;
+package HomeWork7dot2;
 
 public class Buhgalter extends Person implements PrintPosition {
     public Buhgalter(String position) {

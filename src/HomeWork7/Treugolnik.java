@@ -30,7 +30,7 @@ public class Treugolnik extends Figura {
     }
 
     @Override
-    void Square() {
+    void square() {
         double poluPerimeterTreugolnika = (this.sideA + this.sideB + this.sideC) / 2;
         double square = Math.sqrt(poluPerimeterTreugolnika * (poluPerimeterTreugolnika - sideA) *
                 (poluPerimeterTreugolnika - sideB) * (poluPerimeterTreugolnika - sideC));
@@ -38,7 +38,7 @@ public class Treugolnik extends Figura {
     }
 
     @Override
-    double Perimeter() {
+    double perimeter() {
         double perimeter = this.sideA + this.sideB + this.sideC;
         System.out.println("Периметр треугольника: " + perimeter);
         return perimeter;

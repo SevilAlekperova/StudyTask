@@ -21,13 +21,13 @@ public class Pryamougolnik extends Figura{
     }
 
     @Override
-    void Square() {
+    void square() {
         int square = this.length * this.width;
         System.out.println("Площадь прямоугольника: " + square);
     }
 
     @Override
-    double Perimeter() {
+    double perimeter() {
         int perimeter = (this.length + this.width) * 2;
         System.out.println("Периметр прямоугольника: " + perimeter);
         return perimeter;

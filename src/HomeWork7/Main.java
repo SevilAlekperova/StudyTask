@@ -11,15 +11,15 @@ public class Main {
 
         System.out.print("Введите радиус круга: ");
         krug.setRadius(scanner.nextDouble());
-        krug.Square();
-        krug.Perimeter();
+        krug.square();
+        krug.perimeter();
 
         System.out.print("Введите длину прямоугольника: ");
         pryamougolnik.setLength(scanner.nextInt());
         System.out.print("Введите ширину прямоугольника: ");
         pryamougolnik.setWidth(scanner.nextInt());
-        pryamougolnik.Square();
-        pryamougolnik.Perimeter();
+        pryamougolnik.square();
+        pryamougolnik.perimeter();
 
         System.out.print("Введите первую сторону треугольника (A): ");
         treugolnik.setSideA(scanner.nextInt());
@@ -27,8 +27,8 @@ public class Main {
         treugolnik.setSideB(scanner.nextInt());
         System.out.print("Введите третью сторону треугольника (С): ");
         treugolnik.setSideC(scanner.nextInt());
-        treugolnik.Square();
-        treugolnik.Perimeter();
+        treugolnik.square();
+        treugolnik.perimeter();
 
         double[] array = new double[5];
         double perimeterArray = 0;
@@ -36,7 +36,7 @@ public class Main {
         for (int i = 0; i < array.length; i ++){
             System.out.print("Введите радиус круга: ");
             krug.setRadius(scanner.nextDouble());
-            perimeterArray = perimeterArray + krug.Perimeter();
+            perimeterArray = perimeterArray + krug.perimeter();
         }
         System.out.println("Периметр массива: " + perimeterArray);
     }

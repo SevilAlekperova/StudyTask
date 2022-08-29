@@ -6,7 +6,7 @@ import java.sql.SQLOutput;
 public class Main {
     public static void main(String[] args) {
         Document document = new Document();
-        String docNumber = "5845-fda-1254-omg-5t9y";
+        String docNumber = "5845-fda-1254-omg-1a2b";
         document.printNumber(docNumber); //1
         document.changeLetter(docNumber); //2
         document.upperLetter(docNumber); //3
